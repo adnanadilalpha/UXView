@@ -2,26 +2,26 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "UXView - AI-Powered Mock Interviews",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "UXView - AI-Powered Mock Interviews",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "UXView is an AI-powered mock interview platform that helps you practice for your next job interview.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://demo.useUXView.com/opengraph-image",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "UXView - AI-Powered Mock Interviews",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
+      "UXView is an AI-powered mock interview platform that helps you practice for your next job interview.",
+    images: ["https://demo.useUXView.com/opengraph-image"],
     creator: "@tmeyer_me",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://demo.useUXView.com"),
   themeColor: "#FFF",
 };
 
